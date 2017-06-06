@@ -24,5 +24,13 @@ namespace TrabalhoDM2
         {
             InitializeComponent();
         }
+
+        private void TextBoxOne_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                this.LabelOutput.Content = ((TextBox) sender).Text;
+            }
+        }
     }
 }

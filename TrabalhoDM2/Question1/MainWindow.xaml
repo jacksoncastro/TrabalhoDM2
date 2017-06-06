@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="Campo 1:" Margin="84,105,357.4,184.8"></Label>
+        <TextBox Name="TextBoxOne" KeyDown="TextBoxOne_KeyDown" Margin="186,105,132.4,185.8"></TextBox>
+        <Label Content="Campo 2:" Margin="84,152,357.4,137.8"/>
+        <TextBox Name="TextBoxTwo" Margin="186,153,132.4,137.8"></TextBox>
+        <Label Name="LabelOutput" Margin="41,203,35.4,70.8"/>
     </Grid>
 </Window>
