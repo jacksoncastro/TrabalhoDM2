@@ -39,13 +39,22 @@
                 </Border>
                 <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" DockPanel.Dock="Top" Margin="10">
                     <StackPanel Orientation = "Vertical" Margin="10,10,10,9.8" Width="260" Background="Azure">
-                        <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" DockPanel.Dock="Top" Margin="10">
+                        <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" DockPanel.Dock="Top" Margin="10" Height="53">
                             <StackPanel Orientation="Horizontal" Height="40">
                                 <Label FontSize="10" Foreground="LimeGreen" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Some Text"/>
                             </StackPanel>
                         </Border>
                         <StackPanel Orientation="Horizontal" Height="120" Margin="0,0,10,0">
-                            <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" Margin="10,10,90.6,10" Height="98">
+                            <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" Margin="10,11,90.6,0" Width="76">
+                                <Label FontSize="10" Foreground="LimeGreen" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Some&#xA; Text"/>
+                            </Border>
+                            <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" Margin="-80,71,20,0" Width="153">
+                                <Label FontSize="10" Foreground="LimeGreen" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Some&#xA; Text"/>
+                            </Border>
+                            <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" Margin="-250,11,20.6,54" Width="75">
+                                <Label FontSize="10" Foreground="LimeGreen" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Some&#xA; Text"/>
+                            </Border>
+                            <Border CornerRadius="5" BorderBrush="Tomato" Background="Azure" BorderThickness="4" Margin="-90,11,20.6,54" Width="68">
                                 <Label FontSize="10" Foreground="LimeGreen" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Some&#xA; Text"/>
                             </Border>
                         </StackPanel>
