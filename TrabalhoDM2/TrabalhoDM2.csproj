@@ -70,6 +70,9 @@
     <Compile Include="Question6\Window6.xaml.cs">
       <DependentUpon>Window6.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Question7\Window7.xaml.cs">
+      <DependentUpon>Window7.xaml</DependentUpon>
+    </Compile>
     <Page Include="Question1\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -99,6 +102,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Question6\Window6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Question7\Window7.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
