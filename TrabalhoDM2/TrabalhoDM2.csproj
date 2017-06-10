@@ -58,6 +58,9 @@
     <Compile Include="Question10\Window10.xaml.cs">
       <DependentUpon>Window10.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Question11\Window11.xaml.cs">
+      <DependentUpon>Window11.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Question2\Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
     </Compile>
@@ -86,6 +89,10 @@
       <DependentUpon>Window9.xaml</DependentUpon>
     </Compile>
     <Page Include="Question10\Window10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Question11\Window11.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

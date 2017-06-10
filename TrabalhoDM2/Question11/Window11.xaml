@@ -1,0 +1,17 @@
+﻿<Window x:Class="TrabalhoDM2.Question11.Window11"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrabalhoDM2.Question11"
+        mc:Ignorable="d"
+        Title="Window11" Height="318.768" Width="494.548">
+    <Grid>
+        <TextBox Name="Text" Margin="86,39,118,195.8" FontSize="{Binding Path=Value, ElementName=SliderSizeFont}"></TextBox>
+        <Button Name="Button_Decrease" Margin="55,98,407,166.8" Content="-" Click="Button_Decrease_Click" />
+        <Slider Name="SliderSizeFont" Margin="86,98,118,151.8" Minimum="10" Maximum="30" TickFrequency="1"></Slider>
+        <Button Name="Button_Increase" Margin="375,98,87,166.8" Content="+" RenderTransformOrigin="0.508,0.5" Click="Button_Increase_Click"/>
+        <Label Margin="217,142,160,100.8">Tamanho fonte</Label>
+        <Label Margin="318,142,10,100.8" Name="LabelSizeFont" Content="{Binding Path=Value, ElementName=SliderSizeFont}" />
+    </Grid>
+</Window>

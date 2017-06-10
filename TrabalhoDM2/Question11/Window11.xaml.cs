@@ -12,16 +12,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace TrabalhoDM2.Question10
+namespace TrabalhoDM2.Question11
 {
     /// <summary>
-    /// Lógica interna para Window10.xaml
+    /// Lógica interna para Window11.xaml
     /// </summary>
-    public partial class Window10 : Window
+    public partial class Window11 : Window
     {
-        public Window10()
+        public Window11()
         {
             InitializeComponent();
+        }
+
+        private void Button_Decrease_Click(object sender, RoutedEventArgs e)
+        {
+            this.SliderSizeFont.Value -= 1;
+        }
+
+        private void Button_Increase_Click(object sender, RoutedEventArgs e)
+        {
+            this.SliderSizeFont.Value += 1;
         }
     }
 }
