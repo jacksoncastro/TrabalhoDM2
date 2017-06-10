@@ -25,11 +25,5 @@ namespace TrabalhoDM2.Question10
         {
             InitializeComponent();
         }
-
-        //private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        //{
-        //    var slider = sender as Slider;
-        //    this.FontSizeText = Int32.Parse(slider.Value.ToString());
-        //}
     }
 }
