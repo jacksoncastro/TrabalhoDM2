@@ -1,0 +1,15 @@
+﻿<Window x:Class="TrabalhoDM2.Question10.Window10"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrabalhoDM2.Question10"
+        mc:Ignorable="d"
+        Title="Window10" Height="267.285" Width="479.582">
+    <Grid>
+        <TextBox Name="Text" Margin="86,39,117.8,166.6" FontSize="{Binding Path=Value, ElementName=SliderSizeFont}"></TextBox>
+        <Slider Name="SliderSizeFont" Margin="86,76,117.8,130.6" Minimum="10" Maximum="30" TickFrequency="1"></Slider>
+        <Label Margin="217,120,159.8,80.6">Tamanho fonte</Label>
+        <Label Margin="318,120,9.8,80.6" Name="LabelSizeFont" Content="{Binding Path=Value, ElementName=SliderSizeFont}" />
+    </Grid>
+</Window>

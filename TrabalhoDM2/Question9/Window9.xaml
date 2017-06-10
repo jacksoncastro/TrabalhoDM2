@@ -32,7 +32,7 @@
         <Border CornerRadius="5" BorderBrush="Tomato" Background="LightGray" BorderThickness="4" Margin="190,0,74,172.4">
             <StackPanel Orientation="Horizontal" Margin="0,0,-52,-4.4" >
                 <StackPanel Orientation="Vertical" Margin="10,10,0,28.8" >
-                    <Button Content="I am a Button" Width="100" Height="27" Click="Button_Click"/>
+                    <Button Content="I am a Button" Width="100" Height="27"/>
                 </StackPanel>
                 <StackPanel Orientation="Vertical" Margin="-80,30,0,28.8" >
                     <Button Content="I am a Button" Width="94" Height="29"/>
@@ -42,7 +42,7 @@
         <Border CornerRadius="5" BorderBrush="Tomato" Background="LightGray" BorderThickness="4" Margin="9,103,255,69.4">
             <StackPanel Orientation="Horizontal" Margin="0,0,-4,-4.4" >
                 <StackPanel Orientation="Vertical" Margin="50,20,0,28.8" >
-                    <Button Content="I am a Button" Width="100" Height="27" Click="Button_Click"/>
+                    <Button Content="I am a Button" Width="100" Height="27"/>
                 </StackPanel>
             </StackPanel>
         </Border>
